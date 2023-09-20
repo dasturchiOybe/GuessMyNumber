@@ -5,7 +5,7 @@ document.querySelector('.uzb').addEventListener('click', function () {
 document.querySelector('h1').textContent = "Men uylagan sonni top!"
 
 document.querySelector('.between').textContent = 'Bu son 1 va 20 orasida'
-document.querySelector('.again').textContent = 'Bayta'
+document.querySelector('.again').textContent = 'Qayta'
 
 document.querySelector('.check').textContent = 'Tekshirish'
 
