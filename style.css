@@ -47,6 +47,7 @@ main {
 
 /* ELEMENTS STYLE */
 h1 {
+  line-height: 1.5;
   margin-top: 2rem;
   font-size: 4rem;
   text-align: center;
@@ -55,6 +56,10 @@ h1 {
   top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+p{
+  line-height: 1.6;
 }
 
 .number {
@@ -110,6 +115,10 @@ h1 {
   background-color: #ccc;
 }
 
+.uzb , .eng:hover {
+  background-color: #ccc;
+}
+
 .message {
   margin-bottom: 8rem;
   height: 3rem;
@@ -150,7 +159,6 @@ h1 {
   }
 
   .between {
-    /* text-align: center; */
     right: 2.6rem;
     top: 3rem;
   }
@@ -166,22 +174,56 @@ h1 {
     font-size: 40.5%;
   }
 
+  header{
+    height: 300px;
+  }
+
+  main{
+    height: 450px;
+  }
+
   h1 {
     font-size: 3rem;
   }
 
   .between {
-    /* max-width: 250px; */
+    /* right: 23%; */
     /* text-align: center; */
-    right: 30%;
+    /* align-items: center; */
+    justify-content: center;
+    font-size: 1.9rem;
     top: 12rem;
+    width: 80%;
+    margin: 0 auto;
   }
 
   .btns {
     display: flex;
     flex-direction: row-reverse;
-    padding-top: 4rem;
+    /* padding-top: 4rem; */
     padding-right: 5rem;
+  }
+
+  header .btns .uzb{
+    width: 60px;
+    border: none;
+    background-color: #eee;
+    color: #222;
+    font-size: 2rem;
+    font-family: inherit;
+    padding: 2rem 3rem;
+    cursor: pointer;
+  }
+
+  header .btns .eng{
+    width: 60px;
+    border: none;
+    background-color: #eee;
+    color: #222;
+    font-size: 2rem;
+    font-family: inherit;
+    padding: 2rem 3rem;
+    cursor: pointer;
   }
 
   .p02 {
