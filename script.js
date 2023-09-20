@@ -2,18 +2,18 @@
 
 document.querySelector('.uzb').addEventListener('click', function () {
 
-document.querySelector('h1').textContent = "men uylagan sonni top!"
+document.querySelector('h1').textContent = "Men uylagan sonni top!"
 
-document.querySelector('.between').textContent = 'bu son 1 va 20 orasida'
-document.querySelector('.again').textContent = 'qayta'
+document.querySelector('.between').textContent = 'Bu son 1 va 20 orasida'
+document.querySelector('.again').textContent = 'Bayta'
 
-document.querySelector('.check').textContent = 'tekshirish'
+document.querySelector('.check').textContent = 'Tekshirish'
 
 document.querySelector('.message').textContent = 'Taxmin qilishni boshlang...'
 
-document.querySelector('.label-score1').textContent = `💯 urinishlar soni : `
+document.querySelector('.label-score1').textContent = `💯 Brinishlar soni : `
 
-document.querySelector('.label-highscore1').textContent = '🥇 rekord : '
+document.querySelector('.label-highscore1').textContent = '🥇 Rekord : '
 
 })
 
